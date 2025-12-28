@@ -1,0 +1,56 @@
+# ===============================
+# Python cache / compiled files
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Pytest / test artifacts
+# ===============================
+.pytest_cache/
+#reports/   #for now keep commented just for showing this directory: how reports and screenshots will Captured and stored.
+htmlcov/
+.coverage
+coverage.xml
+*.log
+
+# ===============================
+# Playwright artifacts
+# ===============================
+playwright-report/
+test-results/
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# IDE / Editor folders
+# ===============================
+.idea/
+.vscode/
+*.iml
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Temporary / backup files
+# ===============================
+*.tmp
+*.bak
+*.swp
